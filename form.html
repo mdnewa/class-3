@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>registration form</h1>
+    <form action="">
+        <label for="Firstname">First Name:</label>
+        <input type="text" name="Firstname" id="Firstname" placeholder="please enter your first name" required><br><br>
+        <label for="Lastname">Last Name:</label>
+        <input type="text" name="Firstname" id="Firstname" placeholder="please enter your last name" required><br><br>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" placeholder="please enter your email"><br><br>
+        <label for="password">password:</label>
+        <input type="password" name="password" id="password" placeholder="please enter your password"><br><br>
+        <label>Date of Birth:</label>
+        <input type="date" min="2022-01-02" max="2022-01-28"><br><br>
+        <label for="photo">Image</label>
+        <input type="file" name="photo" id="photo"><br><br>
+        <p>Gender-</p>
+        <label for="gender">Female</label>
+        <input type="radio" name="gender" id="gender" value="female">
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" id="gender" value="Male">
+        <label for="gender">Others</label>
+        <input type="radio" name="gender" id="gender" value="Others"><br><br>
+        <p>Religion</p>
+        <label for="religion">Muslim</label>
+        <input type="checkbox" name="religion" id="Muslim" value="muslim">
+        <label for="religion">Hindu</label>
+        <input type="checkbox" name="religion" id="Hindu" value="hindu">
+        <label for="religion">Buddha</label>
+        <input type="checkbox" name="religion" id="Buddha" value="buddha">
+        <label for="religion">Christan</label>
+        <input type="checkbox" name="religion" id="Christan" value="christan"><br><br>
+        <label for="">age:</label>
+        <input type="number"min="18"max="40"><br><br>
+        <label for="">Department:</label>
+        <select name="" id="">
+            <option value="">select your depertment</option>
+            <option value="">CSE</option>
+            <option value="">EEE</option>
+            <option value="">Civil</option>
+            <option value="">ME</option>
+        </select><br><br>
+        <label for="">Adress</label><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
+        <label for="">Telephone Number:</label>
+        <input type="tel"><br><br>
+        <input type="submit" value="register">
+        <input type="reset" value="clear">
+
+    </form>
+</body>
+</html>
